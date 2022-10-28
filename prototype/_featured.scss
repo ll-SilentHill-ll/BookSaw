@@ -1,0 +1,218 @@
+.fsb-slide {
+  max-width: 220px;
+  height: 318px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-color: #EFEEE8;
+  border: 53px solid #EFEEE8;
+}
+
+.fsb-slide_one {
+  background-image: url(../img/bookSimpleWayOfPieceLife.png);
+}
+
+.fsb-slide_two {
+  background-image: url(../img/bookGreatTravel.png);
+
+}
+
+.fsb-slide_three {
+  background-image: url(../img/bookTheLadyBeautyScarlett.png);
+
+}
+
+
+.fsb-slide_four {
+  background-image: url(../img/bookOnceuponatime.png);
+
+}
+
+.fsb-slide_five {
+  background-image: url(../img/book1.png);
+
+}
+
+.fsb-slide_six {
+  background-image: url(../img/bookLifeOfTheWild.png);
+
+}
+
+.fsb-slide_seven {
+  background-image: url(../img/book2.png);
+}
+
+.feat-slider_book {
+  max-width: 326px;
+}
+
+
+
+.featured p {
+  text-align: center;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7A7A7A;
+
+}
+
+.featured h2 {
+  text-align: center;
+  font-family: 'Prata';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  color: #111111;
+  background-color: #F3F2EC;
+  position: relative;
+  max-width: 530px;
+  margin: auto;
+  z-index: 2;
+}
+
+
+
+.feat-slider {
+  border-top: 1px solid #E0E0E0;
+  margin-top: -33px;
+  border-bottom: 1px solid #E0E0E0;
+  margin-bottom: 10px;
+}
+
+.fsb-name {
+  font-family: 'Prata';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #111111;
+  margin-top: 24px;
+  transition: 0.5s;
+}
+
+.fsb-author {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #888888;
+  margin-top: 8px;
+}
+
+.fsb-price {
+  font-family: 'Prata';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #74642F;
+  margin-top: 20px;
+}
+
+.feat_hover_block {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  position: absolute;
+  top: 270px;
+  left: 34px;
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 65px;
+  padding-right: 65px;
+  transition: 0.5s;
+  opacity: 0;
+
+}
+
+.feat-slider_book {
+  position: relative;
+  cursor: pointer;
+}
+
+.feat-slider_book:hover {
+  transition: 0.5s;
+
+  .feat_hover_block {
+  transition: 0.5s;
+  opacity: 1;
+
+  }
+
+  .fsb-name {
+    transition: 0.5s;
+    color: #74642F;
+  }
+}
+
+.featured {
+  position: relative;
+  margin-bottom: 260px;
+
+  .swiper-pagination {
+    bottom: 4px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+
+    background-color: #74642F;
+  }
+}
+
+.featured1 {
+  margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    padding-top: 88px;
+    padding-bottom: 55px;
+}
+
+.swiperbb {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  z-index: 100;
+}
+
+.viewproducts {
+  margin-top: 50px;
+  text-align: right;
+
+  a {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #111111;
+    text-decoration: none;
+  }
+    img {
+      max-width: 14px;
+      margin-left: 8px;
+  }
+}

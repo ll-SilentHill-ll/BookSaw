@@ -1,0 +1,163 @@
+.latestarticles {
+  text-align: center;
+  margin-top: 180px;
+}
+
+.art-block_one {
+  max-width: 438px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.articles-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 87px;
+  border-top: 1px solid #E0E0E0;
+  margin-top: -33px;
+  margin-bottom: 66px;
+}
+
+.articles__img {
+  max-width: 438px;
+  width: 100vw;
+  height: 328px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.articles__img_one {
+  background-image: url(../img/News1.jpg);
+}
+
+.articles__img_two {
+  background-image: url(../img/News2.jpg);
+}
+
+.articles__img_three {
+  background-image: url(../img/News3.jpg);
+}
+
+.articles__date {
+  margin-top: 30px;
+  font-family: 'Prata';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+  color: #74642F;
+}
+
+.articles__title {
+
+  padding-bottom: 26px;
+  border-bottom: 1px solid #C8C8C8;
+}
+
+.articles__title a {
+  margin-top: 10px;
+  font-family: 'Prata';
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 166%;
+  text-transform: capitalize;
+  color: #111111;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.art-block_one:hover {
+
+  .articles__title a{
+
+  color: #74642F;
+  }
+}
+
+.articles__informations {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+
+}
+
+.articles__category {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #777777;
+}
+
+.articles__share a {
+  text-decoration: none;
+  color: #777777;
+  margin-left: 21px;
+  transition: 0.5s;
+}
+
+.articles__share a:hover {
+  color:#111111;
+  transition: 0.5s;
+}
+
+.subartic-title {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7A7A7A;
+  margin-bottom: 20px;
+}
+
+.artic-title {
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #111111;
+  position: relative;
+  max-width: 492px;
+  margin: auto;
+  z-index: 99;
+}
+
+.article_button {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 220%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #111111;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: 1px solid #C0C0C0;
+  max-width: 266px;
+  margin: auto;
+  margin-bottom: 180px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.article_button:hover {
+  border: 1px solid black;
+  transition: .5s;
+}

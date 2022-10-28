@@ -1,0 +1,227 @@
+.swiper-slide {
+  z-index: 10;
+}
+
+.offbook-slide {
+  max-width: 220px;
+  height: 318px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-color: #EFEEE8;
+  border: 53px solid #EFEEE8;
+
+}
+
+.offbook-slide_one {
+  background-image: url(../img/bookWayOfHappiness.png);
+}
+
+.offbook-slide_two {
+  background-image: url(../img/bookFashionSystem.png);
+
+}
+
+.offbook-slide_three {
+  background-image: url(../img/bookMusical.png);
+
+}
+
+
+.offbook-slide_four {
+  background-image: url(../img/bookLifeOfSeacrits.png);
+
+}
+
+.offbook-slide_five {
+  background-image: url(../img/book2.png);
+
+}
+
+.offbook-slide_six {
+  background-image: url(../img/bookLifeOfTheWild.png);
+
+}
+
+.offbook-slide_seven {
+  background-image: url(../img/book1.png);
+}
+
+.offer-slider_book {
+  max-width: 326px;
+}
+
+
+
+.offers p {
+  text-align: center;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7A7A7A;
+
+}
+
+.offers h2 {
+  text-align: center;
+  font-family: 'Prata';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  color: #111111;
+  background-color: #F3F2EC;
+  position: relative;
+  max-width: 530px;
+  margin: auto;
+  z-index: 2;
+}
+
+
+
+.offb-slider {
+  border-top: 1px solid #E0E0E0;
+  margin-top: -33px;
+  border-bottom: 1px solid #E0E0E0;
+  margin-bottom: 10px;
+}
+
+.offer-name {
+  font-family: 'Prata';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #111111;
+  margin-top: 24px;
+  transition: 0.5s;
+}
+
+.offer-author {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #888888;
+  margin-top: 8px;
+}
+
+.offer-price {
+  font-family: 'Prata';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #74642F;
+  margin-top: 20px;
+}
+
+.offer_hover_block {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  position: absolute;
+  top: 270px;
+  left: 34px;
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 65px;
+  padding-right: 65px;
+  transition: 0.5s;
+  opacity: 0;
+
+}
+
+.offer-slider_book {
+  position: relative;
+  cursor: pointer;
+}
+
+.offer-slider_book:hover {
+  transition: 0.5s;
+
+
+  .offer_hover_block {
+  transition: 0.5s;
+  opacity: 1;
+
+  }
+
+  .offer-name {
+    transition: 0.5s;
+    color: #74642F;
+  }
+}
+
+.offers {
+  position: relative;
+  margin-bottom: 185px;
+
+  .swiper-pagination2 {
+    bottom: 4px;
+    margin:auto;
+    margin-top: 40px;
+  }
+
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+
+    background-color: #74642F;
+  }
+}
+
+.offers1 {
+  margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    padding-top: 88px;
+    padding-bottom: 55px;
+}
+
+.swiperbb {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  z-index: 100;
+}
+
+.viewproducts1 {
+  margin-top: -15px;
+  text-align: right;
+
+  a {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #111111;
+    text-decoration: none;
+  }
+    img {
+      max-width: 14px;
+      margin-left: 8px;
+  }
+}

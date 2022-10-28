@@ -1,0 +1,54 @@
+.app-block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #EDEBE4;
+  padding-top: 84px;
+  padding-bottom: 84px;
+  align-items: center;
+}
+
+.app_img {
+  margin-right: 138px;
+}
+
+.app_info {
+  background-color: #EDEBE4;
+}
+
+.app_info p {
+  max-width: 620px;
+  background-color: #EDEBE4;
+  margin-top: 28px;
+  margin-bottom: 34px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 208%;
+  letter-spacing: 0.02em;
+  color: #7A7A7A;
+
+}
+
+.app_info h3 {
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 65px;
+  text-transform: capitalize;
+  color: #111111;
+  background-color: #EDEBE4;
+  margin-bottom: 9px;
+}
+
+.download__button {
+  background-color: #EDEBE4;
+
+  img {
+    max-width: 140px;
+    max-height: 40px;
+    margin-right: 12px;
+  }
+}

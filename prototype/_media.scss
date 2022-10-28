@@ -1,0 +1,78 @@
+@media screen and ( max-width: 1700px ) {
+
+  .slider_block {
+  max-width: 98vw;
+
+  }
+
+
+
+
+}
+
+@media screen and ( max-width: 1420px ) {
+	.container {
+		max-width: 95vw;
+	}
+
+  .slider_block {
+  max-width: 95vw;
+    margin-top: 65px;
+  }
+
+
+  .bgpattern {
+
+    top: -100px;
+    left: 200px;
+
+    img {
+        max-width: 400px;
+    }
+  }
+
+  .articles-block {
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .header-side_area {
+    padding-top: 100px;
+  }
+
+}
+
+
+@media screen and ( max-width: 1220px ) {
+
+  .slider_left {
+    padding-left: 10px;
+  }
+
+  .slider_right {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .book_items {
+    justify-content: space-around;
+    gap:20px;
+  }
+
+  .best-book_info {
+    margin-left: 55px;
+  }
+
+  .sub_title h2 {
+    margin-right: 90px;
+    padding-left: 20px;
+  }
+
+  .sub_title img {
+    padding-left: 20px;
+  }
+
+
+
+
+}

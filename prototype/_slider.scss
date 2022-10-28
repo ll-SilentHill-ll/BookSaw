@@ -1,0 +1,166 @@
+.slider_block {
+  max-width: 1700px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 165px;
+  margin-bottom: 218px;
+
+  i {
+    color: #8C8C8C;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 90px;
+    transition: 0.5s;
+  }
+}
+
+.slider i:hover {
+  border: 1px solid #8C8C8C;
+  background-color: #8C8C8C;
+  color: #333333;
+  transition: 0.5s;
+}
+
+.slider_left {
+  max-width: 600px;
+}
+
+.slider_left h1 {
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 73px;
+  color: #222222;
+  margin-bottom: 17px;
+
+}
+
+.slider_left p {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 220%;
+  letter-spacing: 0.04em;
+  color: #7A7A7A;
+  margin-bottom: 60px;
+}
+
+.slider-arrow_left img {
+  border: 1px solid #8C8C8C;
+  border-radius: 90px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 21px;
+  padding-right: 21px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s;
+
+}
+
+.slider-arrow_left img:hover {
+  background-color: #E5E3DA;
+  opacity: 1;
+  border: 1px solid #E5E3DA;
+  transition: 0.5s;
+}
+
+.slider-arrow_right img {
+  border: 1px solid #8C8C8C;
+  border-radius: 90px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 21px;
+  padding-right: 21px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.slider-arrow_right img:hover {
+  background-color: #E5E3DA;
+  opacity: 1;
+  border: 1px solid #E5E3DA;
+  transition: 0.5s;
+}
+
+.button {
+  font-family: 'Plus Jakarta Sans';
+  border: 1px solid #C0C0C0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 220%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #111111;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button:hover {
+  border: 1px solid #111111;
+  transition: 0.5s;
+}
+
+.slider-arrow_right {
+  z-index: 10;
+  background-color: transparent;
+}
+
+.bookimg {
+  position: relative;
+  max-width: 395px;
+  width: 100vw;
+  height: 572px;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  box-shadow: 0px 0px 60px -40px rgba(0,0,0,0.75);
+  z-index: 2;
+
+
+  .book-line {
+    width: 0px;
+    height: 556px;
+    background-color: black;
+    position: absolute;
+    opacity: 0.2;
+    left: 10px;
+    box-shadow: 10px 10px 10px 6px;
+  }
+  }
+
+.b-slide_one {
+  background-image: url(../img/bookLifeOfTheWild.png);
+}
+
+.b-slide_two {
+  background-image: url(../img/book1.png);
+}
+
+.b-slide_three {
+  background-image: url(../img/book2.png);
+}
+
+.slider_right {
+  position: relative;
+}
+
+.bgpattern {
+  position: absolute;
+  top: -210px;
+  left: 0px;
+}

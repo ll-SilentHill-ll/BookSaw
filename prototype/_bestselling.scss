@@ -1,0 +1,104 @@
+.bestselling {
+  background-color: #EDEBE4;
+  position: relative;
+  padding-top: 138px;
+  padding-bottom: 138px;
+}
+
+.best-bookblock {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #EDEBE4;
+}
+
+.best-book_img {
+  max-width: 413px;
+  height: 602px;
+  width: 100vw;
+  border: 15px solid #F3F2EC;
+  background-image: url(../img/bookBirdsGonnaBeHappy.png);
+
+}
+
+.best-book_info {
+  background-color: #EDEBE4;
+  margin-left: 155px;
+  max-width: 480px;
+
+  h2 {
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 65px;
+    color: #111111;
+    background-color: #EDEBE4;
+    margin-top: 80px;
+    margin-bottom: 0px;
+  }
+
+  .bestbook-author {
+    background-color: #EDEBE4;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #888888;
+    margin-top: 58px;
+  }
+
+  .bestbook-name {
+    margin-top: 30px;
+    background-color: #EDEBE4;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #111111;
+  }
+
+  .bestbook-p {
+    margin-top: 12px;
+    background-color: #EDEBE4;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 208%;
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+  }
+
+  .bestbook-price {
+    margin-top: 35px;
+    margin-bottom: 58px;
+    background-color: #EDEBE4;
+    font-family: 'Prata';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: #74642F;
+
+  }
+
+  a {
+    background-color: #EDEBE4;
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #111111;
+
+    img {
+      background-color: #EDEBE4;
+      max-width: 14px;
+      margin-left: 8px;
+    }
+  }
+}
