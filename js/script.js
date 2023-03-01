@@ -26,14 +26,18 @@ $('.bestbook-p').each(function () {
 })
 
 $('.heder-line').click(function(){
-  $('.header-side_area').addClass('ddd')
+  $('.header-side_area').addClass('animate_area')
 })
 
 $('.heder-line_area').click(function(){
-  $('.header-side_area').removeClass('ddd')
+  $('.header-side_area').removeClass('animate_area')
 })
 
 $('.heder-subscribe_area').click(function(){
   $('.rightblock-subscribe_fixed').addClass('ddd2')
+})
+
+$('.heder-lineadaptive').click(function(){
+  $('.header-side_areamenu').addClass('animate_area1')
 })
 })

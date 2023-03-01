@@ -1,6 +1,7 @@
 section{
   border-bottom: 1px solid #E0E0E0;
 }
+
 .topmenu {
 
   display: flex;
@@ -176,17 +177,17 @@ a.active_m {
 }
 
 .header-side_area {
-  width: 380px;
+  max-width: 380px;
   height: 100vh;
-  display: none;
   position: fixed;
   top: 0px;
-  right: 0px;
+  right: -100vh;
   z-index: 9999;
   background-color: #fff;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 150px;
+  transition: 1s;
 
 }
 
@@ -268,46 +269,41 @@ a.active_m {
 }
 
 .apb-1 {
-  background-image: url(../img/left1.jpg);
+  background-image: url(./img/left1.jpg);
 }
 
 .apb-2 {
-  background-image: url(../img/left2.jpg);
+  background-image: url(./img/left2.jpg);
 }
 
 .apb-3 {
-  background-image: url(../img/left3.jpg);
+  background-image: url(./img/left3.jpg);
 }
 
 .apb-4 {
-  background-image: url(../img/left4.jpg);
+  background-image: url(./img/left4.jpg);
 }
 
 .apb-5 {
-  background-image: url(../img/left8.jpg);
+  background-image: url(./img/left8.jpg);
 }
 
 .apb-6 {
-  background-image: url(../img/left5.jpg);
+  background-image: url(./img/left5.jpg);
 }
 
 .apb-7 {
-  background-image: url(../img/left6.jpg);
+  background-image: url(./img/left6.jpg);
 }
 
 .apb-8 {
-  background-image: url(../img/left7.jpg);
+  background-image: url(./img/left7.jpg);
 }
 
-.ddd {
-  display: block;
-  transition: .5s;
+.animate_area {
+  right: 0px;
+  transition: 1s;
 }
-
-.ddd2 {
-  display: none;
-}
-
 
 
 .area_social {
@@ -336,6 +332,16 @@ a.active_m {
   color: #555555;
 }
 
+.rightblock-subscribe_fixed {
+  transform: translateX(150%);
+  animation: ani 1300ms forwards;
+  animation-delay: 5s;
+}
+
+@keyframes ani {
+  0% {transform: translateX(150%);}
+  100% {transform: translateX(0);}
+}
 
 .rightblock-subscribe_fixed {
   background-color: #fff;
@@ -343,8 +349,8 @@ a.active_m {
   right: 0px;
   bottom: 0px;
   z-index: 9999;
-  max-width: 400px;
-  padding: 70px;
+  max-width: 380px;
+  padding: 50px;
 
 
   h3 {
@@ -432,4 +438,32 @@ a.active_m {
   top:10px;
   background-color: black;
   transform: rotate(-45deg);
+}
+
+.ddd2 {
+  right: -100vw;
+  transition: 2s;
+}
+
+.heder-lineadaptive {
+  display: none;
+}
+
+
+
+.header-side_areamenu {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: -100vh;
+  right: 0px;
+  z-index: 9999;
+  transition: 1s;
+  }
+
+
+
+  .animate_area1 {
+
+    top: 77px;
 }

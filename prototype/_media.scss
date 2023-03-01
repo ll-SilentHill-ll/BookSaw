@@ -10,7 +10,7 @@
 
 }
 
-@media screen and ( max-width: 1420px ) {
+@media screen and ( max-width: 1540px ) {
 	.container {
 		max-width: 95vw;
 	}
@@ -40,6 +40,28 @@
     padding-top: 100px;
   }
 
+  .rightblock-subscribe_fixed {
+    padding: 50px;
+
+    h3 {
+      font-size: 27px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    form input {
+      font-size: 14px;
+    }
+
+    form button {
+      font-size: 22px;
+    }
+  }
+
+
+
 }
 
 
@@ -47,6 +69,7 @@
 
   .slider_left {
     padding-left: 10px;
+    max-width: 380px;
   }
 
   .slider_right {
@@ -74,5 +97,86 @@
 
 
 
+
+}
+
+
+@media screen and ( max-width: 999px ) {
+
+  .header {
+    justify-content: center;
+  }
+
+  .slider-arrow_left {
+    display: none;
+  }
+
+  .slider-arrow_right {
+    display: none;
+  }
+
+  .slider_block {
+    justify-content: center;
+  }
+
+
+
+
+}
+
+@media screen and ( max-width: 480px ) {
+
+  .topmenu {
+    display: none;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .menu-right a {
+    display: none;
+  }
+
+  .bgpattern {
+    display: none;
+  }
+
+  .slider_left p {
+    margin-bottom: 30px;
+  }
+
+  .button {
+    margin-bottom: 20px;
+  }
+
+  .slider_left {
+    order: 2;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .slider_left h1 {
+    margin-top: 10px;
+  }
+
+  .slider_block {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .heder-line {
+    display: none;
+  }
+
+  .heder-lineadaptive {
+    position: relative;
+    top:5px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+  }
 
 }
